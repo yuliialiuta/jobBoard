@@ -1,9 +1,10 @@
 import "./App.css";
+import JobList from "./Components/JobList";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline"> Hello World!</h1>
+      <JobList />
     </div>
   );
 }
