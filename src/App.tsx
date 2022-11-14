@@ -5,7 +5,7 @@ import JobDetails from "./Components/JobDetails";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <BrowserRouter>
         <Routes>
           <Route index element={<JobList />}></Route>
